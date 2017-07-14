@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digitallatin.github.io/guidelines/critical-editions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De Vita Sua of Marcus Aurelius</title>
+        <title xml:id="Tiguri1568">M. Antonini Philosophi Imp. Romani, de vita sua Libri XII, ab
+          innumeris quibus antea scatebant mendis repurgati, et nunc demum vere editi</title>
+        <author>Wilhelm Xylander Holtzmann</author>
+        <editor>Peter J Anderson</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition>First Edition</edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Society for Classical Studies</publisher>
+        <distributor>Digital Latin Library</distributor>
+        <date>2016</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/"> Distributed under a
+            Creative Commons Attribution 4.0 International License.</licence>
+        </availability>
+      </publicationStmt>
+      <seriesStmt>
+        <title level="s">Library of Digital Latin Texts</title>
+        <biblScope unit="vol">1</biblScope>
+      </seriesStmt>
+      <sourceDesc>
+        <p>Born digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <front xml:id="front">
+      <div type="section" xml:id="preface">
+        <head>Preface</head>
+        <p>Base text is the 1558 edition published in Zurich (Tiguri 1558).</p>
+        <div type="section" xml:id="preface-section-1">
+          <!--This is a section within the preface. Editors should use
+          sections (distinguished by <div>) to organize the content of the edition's preface.-->
+        </div>
+      </div>
+      <div type="section" xml:id="bibliography">
+        <head>Bibliography</head>
+        <!--This is where the bibliography for the edition is listed, including manuscript
+        descriptions, and lists of early editions, modern editions, and other sources cited
+        in the current edition. For more information on encoding the items in the bibliography
+        see section 3 Bibliography below. -->
+        <div type="section" xml:id="conspectus">
+          <head>Conspectus</head>
+          <listWit>
+            <witness xml:id="Tiguri1558"><abbr type="siglum">Zurich</abbr></witness>
+            <witness xml:id="Lugduni1559"><abbr type="siglum">Lyon</abbr></witness>
+            <witness xml:id="Basileae1568"><abbr type="siglum">Basel</abbr></witness>
+            <witness xml:id="Argentinae1590"><abbr type="siglum">Strasbourg</abbr></witness>
+          </listWit>
+          <listBibl>
+            <bibl xml:id="Casaubon1643"><abbr type="siglum">Casaubon</abbr></bibl>
+          </listBibl>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div type="edition" xml:id="edition-text">
+        <div type="textpart" n="1" xml:id="part1">
+          <head>Liber I</head>
+          <!--Text goes here, according to the conventions laid out elsewhere in these guidelines.-->
+        </div>
+        <div type="textpart" n="2" xml:id="part2">
+          <head>Liber II</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="3" xml:id="part3">
+          <head>Liber III</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="4" xml:id="part4">
+          <head>Liber IV</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="5" xml:id="part5">
+          <head>Liber V</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+          <p>
+            <seg n="1"><milestone unit="page" n="58" edRef="#Tiguri1558"/><milestone unit="page"
+                n="216" edRef="#Basileae1568 #Argentinae1590"/><milestone unit="page" n="57"
+                edRef="#Lugduni1559"/>Mane cum gravatim a somno surgis, in <app>
+                <lem wit="#Tiguri1558 #Lugduni1559">promptu</lem>
+                <rdg wit="#Basileae1568 #Argentinae1590">promtu</rdg>
+              </app> tibi sit cogitare, te ad humanum opus faciendum surgere.</seg>
+            <seg n="2">Itaque ergo (dices) gravate accedo ad agenda ea, quorum causa natus sum,
+                <milestone unit="page" n="58" edRef="#Lugduni1559"/>ac <app>
+                <lem wit="#Lugduni1559 #Basileae1568 #Argentinae1590">propter</lem>
+                <rdg wit="#Tiguri1558">proter</rdg>
+              </app> quae in hunc veni mundum?</seg>
+            <seg n="3">Scilicet in hoc <app>
+                <lem>factus</lem>
+                <note><ref target="#Casaubon1643">Casaubon</ref>: factus sum</note>
+              </app>, ut decumbens in lecto meipsum calefaciam?</seg>
+            <seg n="4">Atqui hoc iucundius est.</seg>
+            <seg n="5">Ergone ad voluptatem natus es, non ad <app>
+                <lem>agendum</lem>
+                <note><ref target="#Casaubon1643">Casaubon</ref>: agendum et operandum</note>
+              </app>?</seg>
+            <seg n="6">Non vides plantulas, passerculos, formicas, <app>
+                <lem wit="#Lugduni1559 #Basileae1568 #Argentinae1590">araneas</lem>
+                <rdg wit="#Tiguri1558">arcaneas</rdg>
+              </app>, apes, singula haec suo intenta <app>
+                <lem>officio</lem>
+                <note><ref target="#Casaubon1643">Casaubon</ref>: officio proprii mundi cursum
+                  officiumque consummare?</note>
+              </app>?</seg>
+            <seg n="7">Tu vero ea quae sunt hominis obire recusas, neque <app>
+                <lem>ad id te confers</lem>
+                <note><ref target="#Casaubon1643">Casaubon</ref>: ad id properas</note>
+              </app> quod naturae tuae convenit?</seg>
+            <seg n="8">At vero quiete opus est.</seg>
+            <seg n="9">Sane, sed et huic modum statuit natura, perinde ut edendi bibendique.</seg>
+            <seg n="10">Atqui tu ultra modum, <app>
+                <lem wit="#Basileae1568">et id quod</lem>
+                <rdg wit="#Tiguri1558">iam qui quod</rdg>
+                <rdg wit="#Lugduni1559">iam id quod</rdg>
+                <note><ref target="#Casaubon1643">Casuabon</ref>: et id quod</note>
+              </app> satis est, procedis:</seg>
+            <seg n="11">in rebus vero agendis <app>
+                <lem wit="#Lugduni1559 #Basileae1568 #Argentinae1590">intra</lem>
+                <rdg wit="#Tiguri1558">intro</rdg>
+              </app> modum subsistis.</seg>
+            <seg n="12">Fit hoc eo, quia teipsum non diligis.</seg>
+            <seg n="13">Alioquin enim et <milestone unit="page" n="59" edRef="#Tiguri1558"/>naturam
+                <milestone unit="page" n="217" edRef="#Basileae1568 #Argentinae1590"/>tuam eiusque
+              voluntatem diligeres.</seg>
+            <seg n="14">Etenim alii qui suas <app><lem wit="#Tiguri1558 #Lugduni1559">artes</lem><rdg wit="#Basileae1568 #Argentinae1590">arres</rdg></app> amant, operibus suis ita incumbunt, ut neque balneorum
+              neque cibi curam habeant</seg>
+            <seg n="16">Hi enim quarum rerum studio tenentur, dum eas <app>
+                <lem>augere</lem>
+                <note>NOTE HERE</note>
+              </app> possint, cibum et somnum postponunt.</seg>
+          </p>
+        </div>
+        <div type="textpart" n="6" xml:id="part6">
+          <head>Liber VI</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="7" xml:id="part7">
+          <head>Liber VII</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="8" xml:id="part8">
+          <head>Liber VIII</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="9" xml:id="part9">
+          <head>Liber IX</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="10" xml:id="part10">
+          <head>Liber X</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="11" xml:id="part11">
+          <head>Liber XI</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+        <div type="textpart" n="12" xml:id="part12">
+          <head>Liber XII</head>
+          <!--Each new major section (e.g., book, volume) has a new <div>.-->
+        </div>
+      </div>
+    </body>
+    <back>
+      <!--The content of the back matter will be determined in consultation between
+      the editor and the staff of the DLL. Because LDLT editions are encoded, the
+      matter traditionally found in the back of a printed critical edition may be
+      generated by applications instead of having to be entered manually.
+      Nevertheless, there is space here for notes, indices, and other kinds of
+      information.-->
+    </back>
+  </text>
+</TEI>
