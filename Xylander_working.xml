@@ -6,8 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>De Vita Sua of Marcus Aurelius</title>
-        <title xml:id="Tiguri1568">M. Antonini Philosophi Imp. Romani, de vita sua Libri XII, ab
-          innumeris quibus antea scatebant mendis repurgati, et nunc demum vere editi</title>
+        <title xml:id="Tiguri1558">M. Antonini Philosophi Imp. Romani, de vita sua Libri XII</title>
         <author>Wilhelm Xylander Holtzmann</author>
         <editor>Peter J Anderson</editor>
       </titleStmt>
@@ -51,10 +50,10 @@
         <div type="section" xml:id="conspectus">
           <head>Conspectus</head>
           <listWit>
-            <witness xml:id="Tiguri1558"><abbr type="siglum">Zurich</abbr></witness>
-            <witness xml:id="Lugduni1559"><abbr type="siglum">Lyon</abbr></witness>
-            <witness xml:id="Basileae1568"><abbr type="siglum">Basel</abbr></witness>
-            <witness xml:id="Argentinae1590"><abbr type="siglum">Strasbourg</abbr></witness>
+            <witness xml:id="1558"><abbr type="siglum">1558</abbr></witness>
+            <witness xml:id="1559"><abbr type="siglum">1559</abbr></witness>
+            <witness xml:id="1568"><abbr type="siglum">1568</abbr></witness>
+            <witness xml:id="1590"><abbr type="siglum">1590</abbr></witness>
           </listWit>
           <listBibl>
             <bibl xml:id="Casaubon1643"><abbr type="siglum">Casaubon</abbr></bibl>
@@ -84,17 +83,17 @@
           <head>Liber V</head>
           <!--Each new major section (e.g., book, volume) has a new <div>.-->
           <p>
-            <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0562.tlg001.perseus-grc1:5.1">5.1.1</ref>
-            <seg n="1"><milestone unit="page" n="58" edRef="#Tiguri1558"/><milestone unit="page"
-                n="216" edRef="#Basileae1568 #Argentinae1590"/><milestone unit="page" n="57"
-                edRef="#Lugduni1559"/>Mane cum gravatim a somno surgis, in <app>
-                <lem wit="#Tiguri1558 #Lugduni1559">promptu</lem>
-                <rdg wit="#Basileae1568 #Argentinae1590">promtu</rdg>
+            <ref target="http://data.perseus.org/citations/urn:cts:greekLit:tlg0562.tlg001.perseus-grc1:5.1.1">[5.1.1 Leopold]</ref>
+            <seg n="1"><milestone unit="page" n="58" edRef="#1558"/><milestone unit="page"
+                n="216" edRef="#1568 #1590"/><milestone unit="page" n="57"
+                edRef="#1559"/>Mane cum gravatim a somno surgis, in <app>
+                <lem wit="#1558 #1559">promptu</lem>
+                <rdg wit="#1568 #1590">promtu</rdg>
               </app> tibi sit cogitare, te ad humanum opus faciendum surgere.</seg>
             <seg n="2">Itaque ergo (dices) gravate accedo ad agenda ea, quorum causa natus sum,
-                <milestone unit="page" n="58" edRef="#Lugduni1559"/>ac <app>
-                <lem wit="#Lugduni1559 #Basileae1568 #Argentinae1590">propter</lem>
-                <rdg wit="#Tiguri1558">proter</rdg>
+                <milestone unit="page" n="58" edRef="#1559"/>ac <app>
+                <lem wit="#1559 #1568 #1590">propter</lem>
+                <rdg wit="#1558">proter</rdg>
               </app> quae in hunc veni mundum?</seg>
             <seg n="3">Scilicet in hoc <app>
                 <lem>factus</lem>
@@ -106,8 +105,8 @@
                 <note><ref target="#Casaubon1643">Casaubon</ref>: agendum et operandum</note>
               </app>?</seg>
             <seg n="6">Non vides plantulas, passerculos, formicas, <app>
-                <lem wit="#Lugduni1559 #Basileae1568 #Argentinae1590">araneas</lem>
-                <rdg wit="#Tiguri1558">arcaneas</rdg>
+                <lem wit="#1559 #1568 #1590">araneas</lem>
+                <rdg wit="#1558">arcaneas</rdg>
               </app>, apes, singula haec suo intenta <app>
                 <lem>officio</lem>
                 <note><ref target="#Casaubon1643">Casaubon</ref>: officio proprii mundi cursum
@@ -120,20 +119,20 @@
             <seg n="8">At vero quiete opus est.</seg>
             <seg n="9">Sane, sed et huic modum statuit natura, perinde ut edendi bibendique.</seg>
             <seg n="10">Atqui tu ultra modum, <app>
-                <lem wit="#Basileae1568">et id quod</lem>
-                <rdg wit="#Tiguri1558">iam qui quod</rdg>
-                <rdg wit="#Lugduni1559">iam id quod</rdg>
+                <lem wit="#1568">et id quod</lem>
+                <rdg wit="#1558">iam qui quod</rdg>
+                <rdg wit="#1559">iam id quod</rdg>
                 <note><ref target="#Casaubon1643">Casuabon</ref>: et id quod</note>
               </app> satis est, procedis:</seg>
             <seg n="11">in rebus vero agendis <app>
-                <lem wit="#Lugduni1559 #Basileae1568 #Argentinae1590">intra</lem>
-                <rdg wit="#Tiguri1558">intro</rdg>
+                <lem wit="#1559 #1568 #1590">intra</lem>
+                <rdg wit="#1558">intro</rdg>
               </app> modum subsistis.</seg>
             <seg n="12">Fit hoc eo, quia teipsum non diligis.</seg>
-            <seg n="13">Alioquin enim et <milestone unit="page" n="59" edRef="#Tiguri1558"/>naturam
-                <milestone unit="page" n="217" edRef="#Basileae1568 #Argentinae1590"/>tuam eiusque
+            <seg n="13">Alioquin enim et <milestone unit="page" n="59" edRef="#1558"/>naturam
+                <milestone unit="page" n="217" edRef="#1568 #1590"/>tuam eiusque
               voluntatem diligeres.</seg>
-            <seg n="14">Etenim alii qui suas <app><lem wit="#Tiguri1558 #Lugduni1559">artes</lem><rdg wit="#Basileae1568 #Argentinae1590">arres</rdg></app> amant, operibus suis ita incumbunt, ut neque balneorum
+            <seg n="14">Etenim alii qui suas <app><lem wit="#1558 #1559">artes</lem><rdg wit="#1568 #1590">arres</rdg></app> amant, operibus suis ita incumbunt, ut neque balneorum
               neque cibi curam habeant</seg>
             <seg n="16">Hi enim quarum rerum studio tenentur, dum eas <app>
                 <lem>augere</lem>
